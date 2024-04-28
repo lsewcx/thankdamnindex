@@ -115,7 +115,7 @@ export default function Footer() {
 
           {/* 版权声明 */}
           <div className="text-sm text-gray-600 mr-4">&copy; 无锡三颗蛋科技有限公司 保留所有权利</div> 
-            <a href="https://beian.miit.gov.cn/#/Integrated/recordQuery" target="_blank" rel="noopener noreferrer">
+            <a className="text-sm text-gray-600 mr-4" href="https://beian.miit.gov.cn/#/Integrated/recordQuery" target="_blank" rel="noopener noreferrer">
               ICP备案号:苏ICP备2024065580号-2
             </a>
         </div>
