@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Button, message } from 'antd';
 
-export default function Waiting() {
+export default function Waiting(): JSX.Element{
     const [messageApi, contextHolder] = message.useMessage();
 
     const handleClick = async () => {
