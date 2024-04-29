@@ -18,21 +18,29 @@ export default function FeaturesBlocks() {
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
 
+
+
+
+          {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+        </svg> */}
+
+
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" fillRule="evenodd">
-                  <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
-                  <g strokeWidth="2">
-                    <path className="stroke-current text-blue-300" d="M34.514 35.429l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285" />
-                    <path className="stroke-current text-white" d="M20.571 37.714h5.715L36.57 26.286h8" />
-                    <path className="stroke-current text-blue-300" strokeLinecap="square" d="M41.143 34.286l3.428 3.428-3.428 3.429" />
-                    <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />  
-                  </g>
+            <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <g fill="none" fillRule="evenodd">
+                <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
+                <g strokeWidth="2">
+                  <path className="stroke-current text-blue-300" d="M34.514 35.429l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285" />
+                  <path className="stroke-current text-white" d="M20.571 37.714h5.715L36.57 26.286h8" />
+                  <path className="stroke-current text-blue-300" strokeLinecap="square" d="M41.143 34.286l3.428 3.428-3.428 3.429" />
+                  <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />  
                 </g>
-              </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">无头CMS</h4>
-              <p className="text-gray-600 text-center">这里是占位符文本，您可以根据需要替换成具体内容。</p>
+              </g>
+            </svg>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">流程把控</h4>
+              <p className="text-gray-600 text-center">精确掌控流程，确保项目高效顺畅</p>
             </div>
 
             {/* 2nd item */}
@@ -47,8 +55,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">无头CMS</h4>
-              <p className="text-gray-600 text-center">这里是占位符文本，您可以根据需要替换成具体内容。</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">实时反馈</h4>
+              <p className="text-gray-600 text-center">即时反馈，精准洞察，驱动持续优化</p>
             </div>
 
             {/* 3rd item */}
@@ -64,8 +72,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">无头CMS</h4>
-              <p className="text-gray-600 text-center">这里是占位符文本，您可以根据需要替换成具体内容。</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">多层架构</h4>
+              <p className="text-gray-600 text-center">逐层优化功能，使软件架构的高效与可扩展</p>
             </div>
 
             {/* 4th item */}
@@ -81,8 +89,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">无头CMS</h4>
-              <p className="text-gray-600 text-center">这里是占位符文本，您可以根据需要替换成具体内容。</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">用户评价</h4>
+              <p className="text-gray-600 text-center">用户的真实评价是我们不断追求卓越和创新的宝贵指南</p>
             </div>
 
             {/* 5th item */}
@@ -97,8 +105,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">无头CMS</h4>
-              <p className="text-gray-600 text-center">这里是占位符文本，您可以根据需要替换成具体内容。</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">测试手段</h4>
+              <p className="text-gray-600 text-center">精准测试，质量先行，以严谨的检验确保软件的卓越性能和用户的最佳体验</p>
             </div>
 
             {/* 6th item */}
@@ -112,8 +120,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">无头CMS</h4>
-              <p className="text-gray-600 text-center">这里是占位符文本，您可以根据需要替换成具体内容。</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">团队选择</h4>
+              <p className="text-gray-600 text-center">精心挑选，卓越协作，我们的团队汇聚顶尖人才，共创软件外包的卓越成果</p>
             </div>
 
           </div>
