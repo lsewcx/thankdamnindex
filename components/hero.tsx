@@ -1,9 +1,8 @@
 import VideoThumb from '@/public/images/hero-image.png'
 import ModalVideo from '@/components/modal-video'
 import CopyToClipboardButton from './utils/CopyToClipboardButton';
-
+import Waiting from '@/components/utils/waiting'
 export default function Hero() {
-
   return (
     <section className="relative">
 
@@ -39,7 +38,8 @@ export default function Hero() {
                   <CopyToClipboardButton text="lw@wxskdkjyxgs4.wecom.work">联系我们</CopyToClipboardButton>
                 </div>
                 <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4">了解更多</a>
+                  <Waiting></Waiting>
+                  {/* <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4">了解更多</a> */}
                 </div>
               </div>
             </div>
